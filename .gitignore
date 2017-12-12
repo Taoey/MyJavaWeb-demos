@@ -2,7 +2,7 @@
 .metadata/**
 RemoteSystemsTempFiles/
 .recommenders/
-.settings/**
+**/.settings/
 
 
 # Compiled class file
