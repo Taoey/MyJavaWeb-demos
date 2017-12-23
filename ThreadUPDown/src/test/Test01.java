@@ -3,6 +3,7 @@ package test;
 import org.junit.Test;
 
 import thread.MyController;
+import thread.MyController01;
 import thread.Mythread;
 
 public class Test01 {
@@ -34,7 +35,13 @@ public class Test01 {
 	public void test02() throws InterruptedException {
 		MyController.createController();
 		MyController.run();
-		MyController.stop();
 	}
+	
+	@Test
+	public void test03() throws InterruptedException {
+		MyController01.createController();
+		MyController01.crun();
+	}	
+	
 
 }
