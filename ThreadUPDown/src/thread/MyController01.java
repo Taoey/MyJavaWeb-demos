@@ -25,11 +25,15 @@ public class MyController01 extends Thread{
 			/////////
 			//执行过程
 			try {
-				Thread.sleep(1000*3);
+				Thread.sleep(1000*100);
+
 			} catch (InterruptedException e) {
 				Thread.currentThread().interrupt();
 			}
 			/////////
+			for(int i=0;i<10;i++) {
+				System.out.println(i);
+			}
 			System.out.println("本次运行结束");
 			
 		}
